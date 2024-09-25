@@ -52,7 +52,7 @@ public:
 
 class Square : public Rectangle {
 public:
-    Square(int x) : Rectangle(x, y) {
+    Square(int x) : Rectangle(x, x) {
         this->x = x;
     }
     void draw() override {
