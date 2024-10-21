@@ -1,0 +1,17 @@
+@startuml Employee
+title  Employee
+class Employee{
+    -fullname
+    -salary
+    --
+    +getFullName(): string
+    +getSalary(): string
+    --
+    +setFullName()
+    +setSalary()
+    --
+    +Employee(fullname: string, salary: double)
+    --
+    +toString():string
+}
+@enduml
